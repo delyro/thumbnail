@@ -1,4 +1,59 @@
 {
+    "aws/aws-sdk-php": {
+        "version": "3.185.19"
+    },
+    "graham-campbell/guzzle-factory": {
+        "version": "v5.0.0"
+    },
+    "guzzlehttp/guzzle": {
+        "version": "7.3.0"
+    },
+    "guzzlehttp/promises": {
+        "version": "1.4.1"
+    },
+    "guzzlehttp/psr7": {
+        "version": "2.0.0"
+    },
+    "intervention/image": {
+        "version": "2.6.1"
+    },
+    "league/flysystem": {
+        "version": "2.2.0"
+    },
+    "league/flysystem-aws-s3-v3": {
+        "version": "2.1.0"
+    },
+    "league/flysystem-bundle": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "446659fccbea4a0076de3d59268fc7d478c48296"
+        },
+        "files": [
+            "config/packages/flysystem.yaml",
+            "var/storage/.gitignore"
+        ]
+    },
+    "league/mime-type-detection": {
+        "version": "1.7.0"
+    },
+    "mael/intervention-image-bundle": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "cd9eda7b3f9f0bb019395c734c1363265ba731ef"
+        },
+        "files": [
+            "config/packages/mael_intervention_image.yaml"
+        ]
+    },
+    "mtdowling/jmespath.php": {
+        "version": "2.6.1"
+    },
     "psr/cache": {
         "version": "2.0.0"
     },
@@ -8,8 +63,23 @@
     "psr/event-dispatcher": {
         "version": "1.0.0"
     },
+    "psr/http-client": {
+        "version": "1.0.1"
+    },
+    "psr/http-message": {
+        "version": "1.0.1"
+    },
     "psr/log": {
         "version": "1.1.4"
+    },
+    "ralouphie/getallheaders": {
+        "version": "3.0.3"
+    },
+    "spatie/dropbox-api": {
+        "version": "1.19.1"
+    },
+    "spatie/flysystem-dropbox": {
+        "version": "2.0.4"
     },
     "symfony/cache": {
         "version": "v5.3.3"
@@ -96,6 +166,9 @@
     "symfony/http-kernel": {
         "version": "v5.3.3"
     },
+    "symfony/options-resolver": {
+        "version": "v5.3.0"
+    },
     "symfony/polyfill-intl-grapheme": {
         "version": "v1.23.0"
     },
@@ -132,6 +205,9 @@
     },
     "symfony/service-contracts": {
         "version": "v2.4.0"
+    },
+    "symfony/stopwatch": {
+        "version": "v5.3.0"
     },
     "symfony/string": {
         "version": "v5.3.3"

@@ -1,0 +1,16 @@
+flysystem:
+    storages:
+        local.storage:
+            adapter: 'local'
+            options:
+                directory: '%kernel.project_dir%/images'
+        aws.storage:
+            adapter: 'aws'
+            options:
+                client: 'Aws\S3\S3Client'
+                bucket: '%env(AWS_S3_BUCKET_NAME)%'
+                prefix: ''
+        dropbox.storage:
+            adapter: 'dropbox'
+            options:
+                client: 'Spatie\Dropbox\Client'
