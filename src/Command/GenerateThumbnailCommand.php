@@ -124,10 +124,6 @@ final class GenerateThumbnailCommand extends Command
             $files = [new \SplFileInfo($path)];
         }
 
-        if (!is_dir('cache')) {
-            mkdir('cache');
-        }
-
         $total = count($files);
         $fail = 0;
 
